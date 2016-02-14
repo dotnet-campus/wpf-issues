@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildWindows", "ChildWindow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiDragDemo", "MultiDragDemo\MultiDragDemo\MultiDragDemo.csproj", "{38B7E662-8730-414B-8B30-09E5622BFC0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseLeaveEvent", "MouseLeaveEvent\MouseLeaveEvent.csproj", "{5ED92DFA-883A-48A9-99E8-EC5BE33B92CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{38B7E662-8730-414B-8B30-09E5622BFC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38B7E662-8730-414B-8B30-09E5622BFC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38B7E662-8730-414B-8B30-09E5622BFC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED92DFA-883A-48A9-99E8-EC5BE33B92CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED92DFA-883A-48A9-99E8-EC5BE33B92CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED92DFA-883A-48A9-99E8-EC5BE33B92CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED92DFA-883A-48A9-99E8-EC5BE33B92CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
