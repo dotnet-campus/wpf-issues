@@ -14,3 +14,6 @@ Please refer to the [Animation](\Animation) demo program for details.
 
 #### #23. WPF UI thread sometimes stops rendering while another background thread shows a window.
 Please refer to the [BitmapCache](\BitmapCache) demo program for details.
+
+#### #24. WPF child window may sometimes lost mouse leave event.
+Please refer to the [MouseLeaveEvent](\MouseLeaveEvent) demo program for details.
