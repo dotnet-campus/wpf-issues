@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiDragDemo", "MultiDragD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseLeaveEvent", "MouseLeaveEvent\MouseLeaveEvent.csproj", "{5ED92DFA-883A-48A9-99E8-EC5BE33B92CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordAnnotation", "WordAnnotation\WordAnnotation.csproj", "{459E2E1B-0F52-4C1C-910E-F4D2697268F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5ED92DFA-883A-48A9-99E8-EC5BE33B92CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ED92DFA-883A-48A9-99E8-EC5BE33B92CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ED92DFA-883A-48A9-99E8-EC5BE33B92CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{459E2E1B-0F52-4C1C-910E-F4D2697268F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{459E2E1B-0F52-4C1C-910E-F4D2697268F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{459E2E1B-0F52-4C1C-910E-F4D2697268F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{459E2E1B-0F52-4C1C-910E-F4D2697268F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
