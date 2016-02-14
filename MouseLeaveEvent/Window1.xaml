@@ -1,8 +1,8 @@
 ﻿<Window x:Class="MouseLeaveEvent.Window1" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Title="Window1" Height="300" Width="300"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Title="Window1" Height="300" Width="400"
         WindowStartupLocation="CenterOwner">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Right" VerticalAlignment="Top" Height="60" Width="60"
+        <Button x:Name="Button"
                 MouseEnter="UIElement_OnMouseEnter" MouseLeave="UIElement_OnMouseLeave" />
     </Grid>
 </Window>

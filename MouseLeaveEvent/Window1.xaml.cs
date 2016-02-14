@@ -11,6 +11,10 @@ namespace MouseLeaveEvent
         public Window1()
         {
             InitializeComponent();
+
+            Button.Content = "Step 1: Hover your mouse on this button.\r\n" +
+                                   "Step 2: Move your mouse out of the two windows very quickly.\r\n" +
+                                   "\r\nNow you can see that the button still has a effect of hovering.\r\n";
         }
         private void UIElement_OnMouseEnter(object sender, MouseEventArgs e)
         {

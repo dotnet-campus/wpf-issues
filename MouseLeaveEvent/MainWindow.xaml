@@ -1,5 +1,5 @@
 ﻿<Window x:Class="MouseLeaveEvent.MainWindow" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Title="MainWindow" Height="350" Width="525"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Title="MainWindow" Height="850" Width="825"
         WindowStartupLocation="CenterScreen">
     <Grid/>
 </Window>
