@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitmapCache", "BitmapCache\BitmapCache.csproj", "{01005462-54D7-4537-8C4A-FF0525ACB82C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animation", "Animation\Animation.csproj", "{EA13FC10-8BD3-4D0B-ADE2-922A22753F08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildWindows", "ChildWindows\ChildWindows.csproj", "{85164B73-270A-4DD0-9289-AD6D027AD17D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiDragDemo", "MultiDragDemo\MultiDragDemo\MultiDragDemo.csproj", "{38B7E662-8730-414B-8B30-09E5622BFC0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01005462-54D7-4537-8C4A-FF0525ACB82C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01005462-54D7-4537-8C4A-FF0525ACB82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01005462-54D7-4537-8C4A-FF0525ACB82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01005462-54D7-4537-8C4A-FF0525ACB82C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA13FC10-8BD3-4D0B-ADE2-922A22753F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA13FC10-8BD3-4D0B-ADE2-922A22753F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA13FC10-8BD3-4D0B-ADE2-922A22753F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA13FC10-8BD3-4D0B-ADE2-922A22753F08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85164B73-270A-4DD0-9289-AD6D027AD17D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85164B73-270A-4DD0-9289-AD6D027AD17D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85164B73-270A-4DD0-9289-AD6D027AD17D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85164B73-270A-4DD0-9289-AD6D027AD17D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B7E662-8730-414B-8B30-09E5622BFC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B7E662-8730-414B-8B30-09E5622BFC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B7E662-8730-414B-8B30-09E5622BFC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B7E662-8730-414B-8B30-09E5622BFC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
