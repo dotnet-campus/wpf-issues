@@ -3,17 +3,17 @@
 This repository provides small demo programs and code snippets to reproduce several wpf-related bugs. We hope these demos could do a little help to locate and debug the bugs.
 
 
-#### #20. WPF program sometimes become untouchable after multi-touch operations.
+#### #1. [Fixed by .net 4.6.2] WPF program sometimes becomes untouchable after multi-touch operations.
 Please refer to the [MultiDragDemo](\MultiDragDemo) demo program for details.
 
-#### #21 WPF window sometimes gets covered by other windows after its child window being closed.
+#### #2 WPF window sometimes gets covered by other windows after its child window being closed.
 Please refer to the [ChildWindows](\ChildWindows) demo program for details.
 
-#### #22. WPF translating animation sometimes shakes slightly.
+#### #3. WPF translation animation sometimes shakes slightly.
 Please refer to the [Animation](\Animation) demo program for details.
 
-#### #23. WPF UI thread sometimes stops rendering while another background thread shows a window.
+#### #4. WPF UI thread sometimes stops rendering while another background thread shows a window.
 Please refer to the [BitmapCache](\BitmapCache) demo program for details.
 
-#### #24. WPF child window may sometimes lost mouse leave event.
+#### #5. WPF child window may sometimes lost mouse leave event.
 Please refer to the [MouseLeaveEvent](\MouseLeaveEvent) demo program for details.
