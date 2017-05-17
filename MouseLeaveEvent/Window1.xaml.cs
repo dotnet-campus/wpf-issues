@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Windows;
 using System.Windows.Input;
 
 namespace MouseLeaveEvent
@@ -6,7 +7,7 @@ namespace MouseLeaveEvent
     /// <summary>
     /// Window1.xaml 的交互逻辑
     /// </summary>
-    public partial class Window1
+    public partial class Window1/*:Window*/ //That is the same problem whether inherit Window
     {
         public Window1()
         {
