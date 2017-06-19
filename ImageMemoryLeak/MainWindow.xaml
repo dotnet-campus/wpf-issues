@@ -1,0 +1,13 @@
+﻿<Window x:Class="ImageMemoryLeak.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="190" Width="255">
+    <Grid x:Name="RootGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock TextWrapping="Wrap" Text="请连续点击“新建图片”按钮，并从资源管理器中查看此程序的内存变化。&#10;Please keep clicking the “New Image” button，and see the memory changes for this program from Explorer"></TextBlock>
+        <Button Grid.Row="1" Content="新建图片  New Image"  Click="Button_Click"></Button>
+    </Grid>
+</Window>

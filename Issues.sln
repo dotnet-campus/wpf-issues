@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitmapCache", "BitmapCache\BitmapCache.csproj", "{01005462-54D7-4537-8C4A-FF0525ACB82C}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiDragDemo", "MultiDragDemo\MultiDragDemo\MultiDragDemo.csproj", "{38B7E662-8730-414B-8B30-09E5622BFC0B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseLeaveEvent", "MouseLeaveEvent\MouseLeaveEvent.csproj", "{5ED92DFA-883A-48A9-99E8-EC5BE33B92CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageMemoryLeak", "ImageMemoryLeak\ImageMemoryLeak.csproj", "{80780E88-2D90-452D-BFEC-E07C9555E063}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{5ED92DFA-883A-48A9-99E8-EC5BE33B92CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ED92DFA-883A-48A9-99E8-EC5BE33B92CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ED92DFA-883A-48A9-99E8-EC5BE33B92CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80780E88-2D90-452D-BFEC-E07C9555E063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80780E88-2D90-452D-BFEC-E07C9555E063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80780E88-2D90-452D-BFEC-E07C9555E063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80780E88-2D90-452D-BFEC-E07C9555E063}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
