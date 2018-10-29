@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseLeaveEvent", "MouseLea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageMemoryLeak", "ImageMemoryLeak\ImageMemoryLeak.csproj", "{80780E88-2D90-452D-BFEC-E07C9555E063}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainThreadDeadlockWhenTouchThreadWaitForWindowClosed", "MainThreadDeadlockWithStylusInputThread\MainThreadDeadlockWhenTouchThreadWaitForWindowClosed\MainThreadDeadlockWhenTouchThreadWaitForWindowClosed\MainThreadDeadlockWhenTouchThreadWaitForWindowClosed.csproj", "{69AFA209-DAD3-45E4-A5AB-037B2111E9CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,8 +47,15 @@ Global
 		{80780E88-2D90-452D-BFEC-E07C9555E063}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80780E88-2D90-452D-BFEC-E07C9555E063}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80780E88-2D90-452D-BFEC-E07C9555E063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69AFA209-DAD3-45E4-A5AB-037B2111E9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69AFA209-DAD3-45E4-A5AB-037B2111E9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69AFA209-DAD3-45E4-A5AB-037B2111E9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69AFA209-DAD3-45E4-A5AB-037B2111E9CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D66B8B4-6548-42C4-A967-857AD6737D1D}
 	EndGlobalSection
 EndGlobal
