@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageMemoryLeak", "ImageMem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainThreadDeadlockWhenTouchThreadWaitForWindowClosed", "MainThreadDeadlockWithStylusInputThread\MainThreadDeadlockWhenTouchThreadWaitForWindowClosed\MainThreadDeadlockWhenTouchThreadWaitForWindowClosed\MainThreadDeadlockWhenTouchThreadWaitForWindowClosed.csproj", "{69AFA209-DAD3-45E4-A5AB-037B2111E9CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderTargetBitmapThrowsCOMExceptionWhenCreatedTooFast", "RenderTargetBitmapThrowsCOMExceptionWhenCreatedTooFast\RenderTargetBitmapThrowsCOMExceptionWhenCreatedTooFast.csproj", "{5B60183F-432E-467D-AA5C-BE85345260CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{69AFA209-DAD3-45E4-A5AB-037B2111E9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69AFA209-DAD3-45E4-A5AB-037B2111E9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69AFA209-DAD3-45E4-A5AB-037B2111E9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B60183F-432E-467D-AA5C-BE85345260CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B60183F-432E-467D-AA5C-BE85345260CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B60183F-432E-467D-AA5C-BE85345260CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B60183F-432E-467D-AA5C-BE85345260CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
