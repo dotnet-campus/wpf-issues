@@ -1,0 +1,15 @@
+﻿<Window x:Class="WPFAppsCrashIfDisplayTextWithTooManyCombiningMarks.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFAppsCrashIfDisplayTextWithTooManyCombiningMarks"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="Txt" Margin="10,10,10,10" VerticalAlignment="Top"
+                 Text=" WPF apps crash if they display text with too many combining marks &#10;You can click the button and you can see the wpf crash" />
+       
+        <Button Content="do not click" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_OnClick" />
+    </Grid>
+</Window>
