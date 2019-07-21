@@ -1,5 +1,9 @@
 # The MainWindow will lose focus when close the sub window in WPF 
 
+**Update**: This issue is explained by Raymond Chan in 《伟大的产品：Windows 进化启示录》. See this blog below to know more about it:
+
+- [解决关闭模态窗口后，父窗口居然失去焦点跑到了其他窗口的后面的问题- walterlv](https://blog.walterlv.com/post/fix-owner-window-dropping-down-when-close-a-modal-child-window.html)
+
 I am showed a SubWindow in software and then move another software window over the MainWindow.
 
 I show the SubWindow with click the task bar that I can see the MainWindow and SubWindow is at the top of the window.
