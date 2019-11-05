@@ -4,6 +4,8 @@ We make a control that use `CacheMode = new BitmapCache()` and it will make the 
 
 The demo that about this issue is in github: https://github.com/iip-easi/wpf-issues/tree/master/BitmapCache
 
+Report in github: https://github.com/dotnet/wpf/issues/2158
+
 We write a Button like the code.
 
 
