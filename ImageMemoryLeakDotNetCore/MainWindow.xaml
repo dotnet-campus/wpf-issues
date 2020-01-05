@@ -1,0 +1,13 @@
+﻿<Window x:Class="ImageMemoryLeakDotNetCore.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="190" Width="255">
+    <Grid x:Name="RootGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock TextWrapping="Wrap" Text="Please keep clicking the “New Image” button，and see the memory changes for this program from Explorer"></TextBlock>
+        <Button Grid.Row="1" Content="New Image"  Click="Button_Click"></Button>
+    </Grid>
+</Window>
