@@ -1,0 +1,17 @@
+﻿<Window x:Class="ChildWindowDisplayedAndThenBackToMainWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" WindowStyle="None" AllowsTransparency="True"
+        WindowState="Maximized" 
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock Margin="10,10,10,10">
+            We should run this application in VisualStudio and attache to debug. 
+            <LineBreak></LineBreak>
+            And then you can find the sub windows is displayed first, then returns to the main window, and then to the main window
+        </TextBlock>
+        <Button Content="Show sub window" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_OnClick"/>
+    </Grid>
+</Window>
