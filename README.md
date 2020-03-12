@@ -21,3 +21,6 @@ Please refer to the [BitmapCache](./BitmapCache) demo program for details.
 Please refer to the [MouseLeaveEvent](./MouseLeaveEvent) demo program for details.
 
 
+#### WPF child window displayed behind the main window, and then the child window is displayed again in front of the main window
+Please refer to the [ChildWindowDisplayedAndThenBackToMainWindow](./ChildWindowDisplayedAndThenBackToMainWindow) demo program for details.
+
